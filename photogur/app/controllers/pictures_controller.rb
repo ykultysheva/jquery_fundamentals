@@ -1,5 +1,5 @@
 class PicturesController < ApplicationController
   def index
-    @picture = Picture.all 
+    @pictures = Picture.all
   end
 end
